@@ -90,3 +90,101 @@ h3{
 
 
 
+
+
+
+
+
+.logo2 img{
+	position: absolute;
+	width: auto;
+	height: 25px;
+	left: 60px;
+	top: 70px;
+}
+
+.logo2 a{
+	width: auto;
+	height: 100%;
+}
+
+.logo2 a:hover{
+	opacity: 0.5;
+}
+
+.shopping-bag img{
+	position: absolute;
+	width: auto;
+	height: 30px;
+	right: 60px;
+	top: 70px;
+}
+
+.shopping-bag a{
+	width: auto;
+	height: 100%;
+}
+
+.shopping-bag a:hover{
+	opacity: 0.5;
+}
+
+.heart-nofill img{
+	position: absolute;
+	width: auto;
+	height: 30px;
+	right: 100px;
+	top: 70px;
+}
+
+.heart-nofill a{
+	width: auto;
+	height: 100%;
+	opacity: 0.75;
+}
+
+.heart-nofill a:hover{
+	opacity: 0.3;
+}
+
+.search-container{
+	position: absolute;
+	z-index: 5;
+	height: 30px;
+	right: 140px;
+	top: 62px;
+}
+
+.search-nofill img{
+	position: absolute;
+	opacity: 0.75;
+	z-index: 6;
+	width: auto;
+	height: 25px;
+	right: 300px;
+	top: 75px;
+}
+
+.search-nofill a{
+	width: auto;
+	height: 100%;
+}
+
+input[type=text] {
+  padding: 8px 50px;
+  width: 200px;
+  height:50px;
+  font-size: 15px;
+  border: 2px solid #f2f2f2;
+  background: #f2f2f2;
+  border-radius: 18px;
+  opacity: 0.5;
+}
+
+.search-container input[type=text]:hover {
+  opacity: 0.75;
+}
+
+
+
+
