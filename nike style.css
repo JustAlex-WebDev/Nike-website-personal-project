@@ -95,6 +95,161 @@ h3{
 
 
 
+/*changes to the middle navigation & the dropdown menu*/
+.Number1{
+	z-index: -1;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 100px;
+	font-family: "Poppins";
+	background-color: white;
+	transition: 0.6s;
+}
+
+.Number1 .navigation{
+	position: relative;
+	line-height: 75px;
+}
+
+.Number1 .navigation .menu{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	user-select: none;
+}
+
+.menu-item > a{
+	color:black;
+	font-size: 18px;
+	text-decoration: none;
+	margin:20px;
+	padding: 25px 0;
+}
+
+.menu-item > a:hover{
+	text-decoration:underline 2px black;
+    text-underline-offset: 25px;
+	transition: 0.3s;
+}
+
+.menu-item .sub-menu,
+.menu-item .sub-menu2,
+.menu-item .sub-menu3,
+.menu-item .sub-menu4,
+.menu-item .sub-menu5,
+.menu-item .sub-menu6{
+	box-shadow: 0px 285px 1000px grey;
+	position: absolute;
+	background: white;
+	left: -589px;
+	top:77px;
+	width: 262%;
+	justify-content: center;
+	line-height: 30px;
+	list-style: none;
+	pointer-events: none;
+	transform: translateY(-10px);
+	opacity: 0;
+}
+
+.menu-item:hover .sub-menu,
+.menu-item:hover .sub-menu2,
+.menu-item:hover .sub-menu3,
+.menu-item:hover .sub-menu4,
+.menu-item:hover .sub-menu5,
+.menu-item:hover .sub-menu6{
+	pointer-events: all;
+	transform: translateY(0);
+	opacity: 1;
+	padding: 30px 0px;
+	transition: 0.3s;
+}
+
+.menu-item .sub-menu .sub-item,
+.menu-item .sub-menu2 .sub-item,
+.menu-item .sub-menu3 .sub-item,
+.menu-item .sub-menu4 .sub-item,
+.menu-item .sub-menu5 .sub-item,
+.menu-item .sub-menu6 .sub-item{
+	position: relative;
+	padding: 1.5px 0px;
+	cursor: pointer;
+}
+
+.menu-item .sub-menu .sub-item a,
+.menu-item .sub-menu2 .sub-item a,
+.menu-item .sub-menu3 .sub-item a,
+.menu-item .sub-menu4 .sub-item a,
+.menu-item .sub-menu5 .sub-item a,
+.menu-item .sub-menu6 .sub-item a{
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 15px 30px;
+	opacity: 0.5;
+}
+
+.menu-item .sub-menu .sub-item a:hover,
+.menu-item .sub-menu2 .sub-item a:hover,
+.menu-item .sub-menu3 .sub-item a:hover,
+.menu-item .sub-menu4 .sub-item a:hover,
+.menu-item .sub-menu5 .sub-item a:hover,
+.menu-item .sub-menu6 .sub-item a:hover{
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.menu-item .sub-menu .heading,
+.menu-item .sub-menu2 .heading,
+.menu-item .sub-menu3 .heading,
+.menu-item .sub-menu4 .heading,
+.menu-item .sub-menu5 .heading,
+.menu-item .sub-menu6 .heading{
+	position: relative;
+	padding: 7px 0;
+	cursor: pointer;
+}
+
+.menu-item .sub-menu .sub-heading a,
+.menu-item .sub-menu2 .sub-heading a,
+.menu-item .sub-menu3 .sub-heading a,
+.menu-item .sub-menu4 .sub-heading a,
+.menu-item .sub-menu5 .sub-heading a,
+.menu-item .sub-menu6 .sub-heading a{
+	color: black;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 15px 30px;
+}
+
+.sub-menu,
+.sub-menu4,
+.sub-menu5,
+.sub-menu6{
+display:grid;
+grid-template-columns: repeat(5, max-content);
+gap: 20px;
+}
+
+.sub-menu2,
+.sub-menu3{
+display:grid;
+grid-template-columns: repeat(4, max-content);
+gap: 20px;
+}
+
+.item{
+display:flex;
+flex-direction:column;
+gap: 0px;
+}
+
 .logo2 img{
 	position: absolute;
 	width: auto;
