@@ -340,6 +340,75 @@ input[type=text] {
   opacity: 0.75;
 }
 
+/*changes to the bottom navbar*/
+.navbar3{
+	position: absolute;
+	width: 100%;
+	padding: 20px 0px;
+	background: #f2f2f2;
+	font-family: "Poppins";
+	margin-top: 125px;
+	z-index: -2;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar3 .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar3 .menu3 .arrowright .arrowleft{
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar3 .menu3 h3{
+	color:black;
+	font-size: 15px;
+	font-weight: 100;
+	margin-left: 25px;
+}
+
+.navbar3 .menu3 a span{
+	text-decoration: underline;
+	color:black;
+}
+
+.navbar3 .max-width .arrowright img{
+	width: auto;
+	height: 20px;
+}
+
+.navbar3 .arrowright{
+	width: auto;
+	height: 100%;
+	padding-left: 40px;
+	padding-top: 8px;
+	opacity: 0.3;
+}
+
+.navbar3 .arrowright:hover{
+	opacity: 0.5;
+}
+
+.navbar3 .max-width .arrowleft img{
+	width: auto;
+	height: 20px;
+}
+
+.navbar3 .arrowleft{
+	width: auto;
+	height: 100%;
+	padding-right: 20px;
+	padding-top: 8px;
+	opacity: 0.3;
+}
+
+.navbar3 .arrowleft:hover{
+	opacity: 0.5;
+}
+
 
 
 
