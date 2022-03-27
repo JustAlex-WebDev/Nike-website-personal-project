@@ -534,3 +534,327 @@ display:block;
 .sticky .title{
 	font-size: 21px;
 }
+
+
+
+
+/*changes to the left menu filter overflow:auto box*/
+.menu4.sticky2{
+	position: fixed;
+	top:75px;
+	left: 60px;
+	width: 220px;
+    height: 90%;
+}
+
+.menu4{
+    width: 220px;
+    height: 630px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: absolute;
+	background: white;
+	font-family: "Poppins";
+	top: 310px;
+	left: 60px;
+	z-index: -5;
+}
+
+.menu-item4 > a{
+	color:black;
+	font-size: 16px;
+	font-weight: 100;
+	list-style: none;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+.menu-item5{
+	margin-top: 50px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item6{
+	margin-top: 100px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item7{
+	margin-top: 130px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item8{
+	margin-top: 100px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item9{
+	margin-top: 100px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item10{
+	margin-top: 130px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item11{
+	margin-top: 130px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item12{
+	margin-top: 80px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item13{
+	margin-top: 80px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.menu-item14{
+	margin-top: 100px;
+	padding-top: 10px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.sub-menu5,
+.sub-menu6,
+.sub-menu7,
+.sub-menu8,
+.sub-menu9,
+.sub-menu10,
+.sub-menu11,
+.sub-menu12,
+.sub-menu13,
+.sub-menu14{
+	padding-top:15px;
+}
+
+.menu-item5 > a,
+.menu-item6 > a,
+.menu-item7 > a,
+.menu-item8 > a,
+.menu-item9 > a,
+.menu-item10 > a,
+.menu-item11 > a,
+.menu-item12 > a,
+.menu-item13 > a,
+.menu-item14 > a{
+	color:black;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 100;
+	list-style: none;
+}
+
+.menu-item5 .sub-menu5,
+.menu-item6 .sub-menu6,
+.menu-item7 .sub-menu7,
+.menu-item8 .sub-menu8,
+.menu-item9 .sub-menu9,
+.menu-item10 .sub-menu10,
+.menu-item11 .sub-menu11,
+.menu-item12 .sub-menu12,
+.menu-item13 .sub-menu13,
+.menu-item14 .sub-menu14{
+	position: absolute;
+	background: white;
+	list-style: none;
+}
+
+.checkbox1,
+.checkbox2,
+.checkbox3,
+.checkbox4,
+.checkbox5,
+.checkbox6,
+.checkbox7,
+.checkbox8,
+.checkbox9,
+.checkbox10,
+.checkbox11,
+.checkbox12,
+.checkbox13,
+.checkbox14,
+.checkbox15,
+.checkbox16,
+.checkbox17,
+.checkbox18,
+.checkbox19,
+.checkbox20,
+.checkbox21,
+.checkbox22,
+.checkbox23,
+.checkbox24,
+.checkbox25,
+.checkbox26,
+.checkbox27,
+.checkbox28,
+.checkbox29,
+.checkbox30,
+.checkbox31{
+	/*display:inline-flex;*/;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+
+.checkbox__input1,
+.checkbox__input2,
+.checkbox__input3,
+.checkbox__input4,
+.checkbox__input5,
+.checkbox__input6,
+.checkbox__input7,
+.checkbox__input8,
+.checkbox__input9,
+.checkbox__input10,
+.checkbox__input11,
+.checkbox__input12,
+.checkbox__input13,
+.checkbox__input14,
+.checkbox__input15,
+.checkbox__input16,
+.checkbox__input17,
+.checkbox__input18,
+.checkbox__input19,
+.checkbox__input20,
+.checkbox__input21,
+.checkbox__input22,
+.checkbox__input23,
+.checkbox__input24,
+.checkbox__input25,
+.checkbox__input26,
+.checkbox__input27,
+.checkbox__input28,
+.checkbox__input29,
+.checkbox__input30,
+.checkbox__input31{
+	display: none;
+}
+
+.checkbox__box1,
+.checkbox__box2,
+.checkbox__box3,
+.checkbox__box4,
+.checkbox__box5,
+.checkbox__box6,
+.checkbox__box7,
+.checkbox__box8,
+.checkbox__box9,
+.checkbox__box10,
+.checkbox__box11,
+.checkbox__box12,
+.checkbox__box13,
+.checkbox__box14,
+.checkbox__box15,
+.checkbox__box16,
+.checkbox__box17,
+.checkbox__box18,
+.checkbox__box19,
+.checkbox__box20,
+.checkbox__box21,
+.checkbox__box22,
+.checkbox__box23,
+.checkbox__box24,
+.checkbox__box25,
+.checkbox__box26,
+.checkbox__box27,
+.checkbox__box28,
+.checkbox__box29,
+.checkbox__box30,
+.checkbox__box31{
+	width:1.25em;
+	height: 1.25em;
+	border:2px solid #cccccc;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right:5px;
+	flex-shrink: 0;
+}
+
+.checkbox__box1::after,
+.checkbox__box2::after,
+.checkbox__box3::after,
+.checkbox__box4::after,
+.checkbox__box5::after,
+.checkbox__box6::after,
+.checkbox__box7::after,
+.checkbox__box8::after,
+.checkbox__box9::after,
+.checkbox__box10::after,
+.checkbox__box11::after,
+.checkbox__box12::after,
+.checkbox__box13::after,
+.checkbox__box14::after,
+.checkbox__box15::after,
+.checkbox__box16::after,
+.checkbox__box17::after,
+.checkbox__box18::after,
+.checkbox__box19::after,
+.checkbox__box20::after,
+.checkbox__box21::after,
+.checkbox__box22::after,
+.checkbox__box23::after,
+.checkbox__box24::after,
+.checkbox__box25::after,
+.checkbox__box26::after,
+.checkbox__box27::after,
+.checkbox__box28::after,
+.checkbox__box29::after,
+.checkbox__box30::after,
+.checkbox__box31::after{
+	content: '\2714';
+	color:white;
+}
+
+.checkbox__input1:checked + .checkbox__box1,
+.checkbox__input2:checked + .checkbox__box2,
+.checkbox__input3:checked + .checkbox__box3,
+.checkbox__input4:checked + .checkbox__box4,
+.checkbox__input5:checked + .checkbox__box5,
+.checkbox__input6:checked + .checkbox__box6,
+.checkbox__input7:checked + .checkbox__box7,
+.checkbox__input8:checked + .checkbox__box8,
+.checkbox__input9:checked + .checkbox__box9,
+.checkbox__input10:checked + .checkbox__box10,
+.checkbox__input11:checked + .checkbox__box11,
+.checkbox__input12:checked + .checkbox__box12,
+.checkbox__input13:checked + .checkbox__box13,
+.checkbox__input14:checked + .checkbox__box14,
+.checkbox__input15:checked + .checkbox__box15,
+.checkbox__input16:checked + .checkbox__box16,
+.checkbox__input17:checked + .checkbox__box17,
+.checkbox__input18:checked + .checkbox__box18,
+.checkbox__input19:checked + .checkbox__box19,
+.checkbox__input20:checked + .checkbox__box20,
+.checkbox__input21:checked + .checkbox__box21,
+.checkbox__input22:checked + .checkbox__box22,
+.checkbox__input23:checked + .checkbox__box23,
+.checkbox__input24:checked + .checkbox__box24,
+.checkbox__input25:checked + .checkbox__box25,
+.checkbox__input26:checked + .checkbox__box26,
+.checkbox__input27:checked + .checkbox__box27,
+.checkbox__input28:checked + .checkbox__box28,
+.checkbox__input29:checked + .checkbox__box29,
+.checkbox__input30:checked + .checkbox__box30,
+.checkbox__input31:checked + .checkbox__box31{
+	background: black;
+	border-color: black;
+}
