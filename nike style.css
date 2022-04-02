@@ -858,3 +858,238 @@ display:block;
 	background: black;
 	border-color: black;
 }
+
+
+
+
+
+
+
+
+
+/*changes to the actual images and their description*/
+.image1{
+	position: absolute;
+	height: 625px;
+	width: 415px;
+	left: 340px;
+	top:300px;
+	z-index: -5;
+}
+
+.image2{
+	position: absolute;
+	height: 625px;
+	width: 415px;
+	left: 850px;
+	top:300px;
+	z-index: -5;
+}
+
+.image3{
+	position: absolute;
+	height: 625px;
+	width: 350px;
+	left: 1370px;
+	top:300px;
+	z-index: -5;
+}
+
+.image4-5{
+	position: absolute;
+	height: 625px;
+	width: 415px;
+	left: 340px;
+	top:1000px;
+	z-index: -5;
+}
+
+.img5,
+.img7,
+.img8{
+	opacity: 0;
+}
+
+.description01{
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	left: 0px;
+	top:490px;
+	transform: translateY(-10px);
+	opacity: 0;
+	z-index: -5;
+}
+
+.description02{
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	left: 50px;
+	top:490px;
+	transform: translateY(-10px);
+	opacity: 0;
+	z-index: -5;
+}
+
+.description001{
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	left: 0px;
+	top:490px;
+	transform: translateY(-10px);
+	opacity: 0;
+	z-index: -5;
+}
+
+.description002{
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	left: 50px;
+	top:490px;
+	transform: translateY(-10px);
+	opacity: 0;
+	z-index: -5;
+}
+
+.description003{
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	left: 100px;
+	top:490px;
+	transform: translateY(-10px);
+	opacity: 0;
+	z-index: -5;
+}
+
+.img4-1,
+.img5-1,
+.img6-1,
+.img7-1,
+.img8-1{
+	height: 45px;
+	width: auto;
+	position: absolute;
+}
+
+.image4-5:hover .title1,
+.image4-5:hover .description2{
+	opacity: 0;
+}
+
+.image4-5:hover .description3{
+	transform: translateY(-25px);
+	transition: 0.3s;
+}
+
+.image4-5:hover .description{
+	transform: translateY(60px);
+	transition: 0.3s;
+}
+
+.image4-5:hover .description01,
+.image4-5:hover .description02{
+	transform: translateY(0px);
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.image6-8{
+	position: absolute;
+	height: 625px;
+	width: 415px;
+	left: 860px;
+	top:1000px;
+	z-index: -5;
+}
+
+.image6-8:hover .title1,
+.image6-8:hover .description2{
+	opacity: 0;
+}
+
+.image6-8:hover .description3{
+	transform: translateY(-25px);
+	transition: 0.3s;
+}
+
+.image6-8:hover .description{
+	transform: translateY(60px);
+	transition: 0.3s;
+}
+
+.image6-8:hover .description001,
+.image6-8:hover .description002,
+.image6-8:hover .description003{
+	transform: translateY(0px);
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.image9{
+	position: absolute;
+	height: 625px;
+	width: 350px;
+	left: 1370px;
+	top:1000px;
+	z-index: -5;
+}
+
+.image1 > a,
+.image2 > a,
+.image3 > a,
+.image4-5 > a,
+.image6-8 > a,
+.image9 > a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Poppins';
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9{
+	height: 480px;
+	width: auto;
+	position: absolute;
+}
+
+.title1{
+	font-size: 18px;
+	top:517px;
+	position: absolute;
+	left: 0px;
+    
+}
+
+.description{
+	font-size: 16px;
+	top:490px;
+	color:red;
+	position: absolute;
+	left: 0px;
+}
+
+.description2{
+	font-size: 16px;
+	top:542px;
+	opacity: 50%;
+	position: absolute;
+	left: 0px;
+}
+
+.description3{
+	font-size: 17px;
+	top:600px;
+	position: absolute;
+	left: 0px;
+}
