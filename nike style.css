@@ -1093,3 +1093,103 @@ display:block;
 	position: absolute;
 	left: 0px;
 }
+
+
+
+
+
+
+
+
+
+/*changes to the footer of the site*/
+footer{
+font-family: "Poppins";
+position:absolute;
+background:black;
+width:100%;
+top: 1700px;
+left:0;
+}
+footer .content{
+max-width:1500px;
+margin:auto;
+padding:30px 40px 40px 40px;
+}
+footer .content .link-boxes{
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+footer .content .link-boxes .box{
+width:calc(100% / 5 - 10px);
+}
+.content .link-boxes .box .link_name{
+color:#fff;
+font-size:13px;
+font-weight:500;
+margin-bottom:10px;
+position:relative;
+}
+.content .link-boxes .box li{
+margin:6px 0;
+list-style:none;
+}
+.content .link-boxes .box li a{
+text-decoration:none;
+color:#fff;
+font-size:12px;
+opacity:0.5;
+transition:all 0.3s ease;
+}
+.content .link-boxes .box li a:hover{
+opacity:1;
+}
+.top2 .media-icons2{
+display:flex;
+}
+.top2 .media-icons2 a{
+width:30px;
+height:30px;
+background:darkgrey;
+margin:0 8px;
+border-radius:50%;
+text-align:center;
+line-height:30px;
+color:black;
+font-size:20px;
+text-decoration:none;
+transition: all 0.3s ease;
+}
+.top2 .media-icons2 a:hover{
+background:#f2f2f2;
+}
+footer .bottom-details{
+width:100%;
+background:black;
+}
+footer .bottom-details .bottom_text{
+max-width:1500px;
+margin:auto;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+font-size:12px;
+color:#fff;
+text-decoration:none;
+opacity:0.5;
+transition: all 0.3s ease;
+}
+.bottom-details .bottom_text .copyright_text > a{
+	opacity: 1;
+	font-size: 13px;
+}
+.bottom-details .bottom_text a:hover{
+opacity:1;
+}
+.bottom-details .bottom_text a{
+margin-right:10px;
+}
